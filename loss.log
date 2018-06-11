@@ -1,0 +1,3 @@
+INFO:matplotlib.backends.qt_compat:Could not import sip; falling back on PySide
+in place of PyQt4 or PyQt5.
+
