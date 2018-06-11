@@ -33,6 +33,7 @@ use_gpu = torch.cuda.is_available()
 
 segmentor = initialize_rcnn(21)
 segmentor.load_state_dict(torch.load('./checkpoints/0-19-0.5117.pyt'))
+segmentor.eval()
 
 if use_gpu:
 	segmentor.cuda()
